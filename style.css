@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ficha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse;
+    width: 600px;
+}
+
+th{
+    width: 40%;
+}
+
+td{
+    text-align: justify;
+    border-bottom: 1px solid #d4db0b;
+}
+
+.titulo-principal{
+    background-color: #d4db0b;
+}
+
+.subtitulo{
+    background-color: #d4db0b;
+}
+
+.titulo-column{
+    background-color: #f1f5de;
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    resize: vertical;
+    text-align: center;
+    padding: 5px;
+}
+
+button{
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: gainsboro;
+}
+
+button:active{
+    background-color: rgb(179, 14, 14);
+}
